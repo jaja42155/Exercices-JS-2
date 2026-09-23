@@ -1,0 +1,11 @@
+# Fichiers temporaires du système
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dépendances et fichiers locaux
+node_modules/
+.env
+.env.*
+!.env.example
+*.log

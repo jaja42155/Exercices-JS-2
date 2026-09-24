@@ -1,0 +1,14 @@
+.grille {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+     grid-template-rows: repeat(3, auto); 
+    justify-content: center;
+    margin-top: 10rem;
+   
+}
+
+.case {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

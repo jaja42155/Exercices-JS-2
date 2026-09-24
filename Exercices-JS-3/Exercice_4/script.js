@@ -1,22 +1,19 @@
-let motDepasse = document.getElementById("password")
-let verif = document.getElementById("confirmPassword")
-const bouton = document.querySelector("button")
 
+const bouton = document.querySelector("button")
 let bordure = document.querySelectorAll("input")
 
-bouton.addEventListener("click",() => {
-let valueMot = motDepasse.value
-let valueVerif = verif.value
-if (valueMot === valueVerif) {
-    motDepasse.style.border = "3px solid green"
-    verif.style.border = "3px solid green"
-    console.log("cbn")
-    
-}else{
-     motDepasse.style.border = "3px solid red"
-    verif.style.border = "3px solid red"
-    console.log("pasbn")
-}
 
+bordure.forEach(element => {
+    bouton.addEventListener("click", () => {
+
+      let passsworld =  element.value = ([1])
+      let verif = element.value = ([2])
+
+        console.log(element)
+        if (passsworld === verif) {
+            
+        }
+
+
+    })
 })
-//si value === valueConfirm sinon border red
